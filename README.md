@@ -3,17 +3,17 @@
 **Easy Yelp** is a single file PHP client for [Yelp API](https://www.yelp.com/developers/documentation/v3/get_started).
 
 ### Installation
-You can simply download the file and include it in your project.
-
-### Usage
-Include it in your project and create an instance.
-
+You can simply install it using composer.
+```
+composer require hoseinrafiei/easy-yelp
+```
+If you're not using composer, you can simply download the file and include it in your project manually.
 ```php
 require 'yelp.php';
 ```
 
-If you're using composer or autoloader then you don't need to include it manually. You just need to configure your autoloader tool.
-
+### Usage
+Create an instance and send your API token to the constructor method. Then simply call the methods with proper request and fetch the data from Yelp API **Easily**.
 ```php
 $yelp = new EasyYelp\Yelp('YOUR_API_TOKEN');
 $businesses = $yelp->businessSearch([
