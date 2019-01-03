@@ -15,7 +15,7 @@ require 'yelp.php';
 If you're using composer or autoloader then you don't need to include it manually. You just need to configure your autoloader tool.
 
 ```php
-$yelp = new Yelp('YOUR_TOKEN');
+$yelp = new EasyYelp\Yelp('YOUR_API_TOKEN');
 $businesses = $yelp->businessSearch([
     'location' => 'Los Angeles, CA',
     'price' => '1,2,3',
@@ -89,6 +89,9 @@ $alias = 'blahblah';
 $request = [];
 $yelp->categoryDetails($alias, $request)->getArray();
 ```
+### Examples
+You can check tests directory files to see some examples for using API methods.
+
 ### Errors
 To check if you received an error from Yelp API or not you can use following functions.
 ```php

@@ -1,12 +1,12 @@
 <?php
 // Yelp Client
-require '../src/yelp.php';
+require '../src/EasyYelp/yelp.php';
 
 // Telp Token
 $token = 'PUT_YOUR_TOKEN_HERE';
 
 // Yelp Instance
-$yelp = new Yelp($token);
+$yelp = new EasyYelp\Yelp($token);
 
 // Get Yelp Event
 $eventId = 'san-francisco-yelp-10-year-anniversary-celebration';

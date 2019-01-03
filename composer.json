@@ -1,0 +1,20 @@
+{
+    "name": "hoseinrafiei/easy-yelp",
+    "description": "A light-weight PHP Client for Yelp Fusion API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hosein Rafiei",
+            "email": "hoseinrafiei@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=7.0.0"
+    },
+    "autoload": {
+      "psr-0": {
+        "HoseinRafiei": "src/"
+      }
+    }
+}

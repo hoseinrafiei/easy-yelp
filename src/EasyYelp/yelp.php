@@ -1,9 +1,11 @@
 <?php
+namespace EasyYelp;
+
 /**
  * Yelp API Client
  *
- * @author Hossein R. <hoseinrafiei@gmail.com>
- * @class Yelp
+ * @author Hosein Rafiei <hoseinrafiei@gmail.com>
+ * @class EasyYelp
  * @version	1.0.0
  */
 class Yelp
@@ -27,7 +29,7 @@ class Yelp
     private $token;
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $token
      */
     public function __construct(string $token)
@@ -36,7 +38,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param array $args
      * @return Yelp
      */
@@ -46,7 +48,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param array $args
      * @return Yelp
      */
@@ -56,7 +58,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $transactionType
      * @param array $args
      * @return Yelp
@@ -67,7 +69,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $id
      * @param array $args
      * @return Yelp
@@ -78,7 +80,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param array $args
      * @return Yelp
      */
@@ -88,7 +90,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $id
      * @param array $args
      * @return Yelp
@@ -99,7 +101,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param array $args
      * @return Yelp
      */
@@ -109,7 +111,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param array $args
      * @return Yelp
      */
@@ -119,7 +121,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $id
      * @param array $args
      * @return Yelp
@@ -130,7 +132,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param array $args
      * @return Yelp
      */
@@ -140,7 +142,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param array $args
      * @return Yelp
      */
@@ -150,7 +152,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $alias
      * @param array $args
      * @return Yelp
@@ -161,7 +163,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @return array
      */
     public function getArray()
@@ -170,7 +172,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @return array
      */
     public function getObject()
@@ -179,8 +181,8 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
-     * @param array|stdClass $response
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
+     * @param array|\stdClass $response
      * @return boolean
      */
     public function hasError($response = NULL)
@@ -194,8 +196,8 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
-     * @param array|stdClass $response
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
+     * @param array|\stdClass $response
      * @return string
      */
     public function getError($response = NULL)
@@ -212,7 +214,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $route
      * @param array $args
      * @return Yelp
@@ -223,7 +225,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $route
      * @param array $args
      * @return Yelp
@@ -234,7 +236,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $route
      * @param array $args
      * @param string $method
@@ -283,7 +285,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @param string $route
      * @return string
      */
@@ -293,7 +295,7 @@ class Yelp
     }
 
     /**
-     * @author Hossein R. <hoseinrafiei@gmail.com>
+     * @author Hosein Rafiei <hoseinrafiei@gmail.com>
      * @return string
      */
     protected function _getTokenHeader()
