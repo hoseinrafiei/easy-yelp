@@ -5,8 +5,8 @@ namespace EasyYelp;
  * Yelp API Client
  *
  * @author Hosein Rafiei <hoseinrafiei@gmail.com>
- * @class EasyYelp
- * @version	1.0.0
+ * @class Yelp
+ * @version 1.0.0
  */
 class Yelp
 {
