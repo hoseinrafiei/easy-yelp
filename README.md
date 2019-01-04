@@ -90,7 +90,7 @@ $request = [];
 $yelp->categoryDetails($alias, $request)->getArray();
 ```
 ### Examples
-You can check tests directory files to see some examples for using API methods.
+You can check examples directory files to see some examples for using API methods.
 
 ### Errors
 To check if you received an error from Yelp API or not you can use following functions.

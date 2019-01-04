@@ -1,6 +1,6 @@
 <?php
 // Yelp Client
-require '../src/EasyYelp/yelp.php';
+require '../src/yelp.php';
 
 // Telp Token
 $token = 'PUT_YOUR_TOKEN_HERE';
